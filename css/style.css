@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 2, 13);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+header img {
+    width: 11%;
+    margin-left: 4em;
+}
+
+nav {
+    width: 65%;
+}
+
+nav ul  {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    border-radius: 1em;
+    background-color: orangered;
+}
+
+.title-fixture {
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-fixture h1 {
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+
+.title-fixture span {
+    color: orangered;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: orangered;
+}
+
+.section-groups {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.groups {
+    width: 25%;
+    padding: .7em;
+}
+
+h3 {
+    text-align: center;
+    color: orangered;
+}
+
+.section-groups p {
+    margin: 0 auto;
+    width: 60%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: .8em;
+    padding: .5em;
+}
+
+.border {
+    border-radius: 1em;
+}
+
+.white-letters {
+    color: white;
+}
+
+.qatar {
+    background-image: linear-gradient(to right,white,#4e0926 50%);
+}
+
+.ecuador {
+    background-image: linear-gradient(yellow 40%,blue, red);
+}
+
+.senegal {
+    background-image: linear-gradient(to right,green, yellow, red);
+}
+
+.paises-bajos {
+    background-image: linear-gradient(rgb(233, 1, 1) , white, blue);
+}
+
+.inglaterra {
+    background-image: linear-gradient(to right,white, red);
+}
+
+.iran {
+    background-image: linear-gradient(to top,white , red, green);
+}
+
+.eeuu {
+    background-image: linear-gradient(to left,blue , white, red);
+}
+
+.gales {
+    background-image: linear-gradient(white , red, green);
+}
+
+.argentina {
+    background-image: linear-gradient(rgb(14, 130, 168) , white, rgb(14, 130, 168));
+}
+
+.arabia-saudita {
+  background-image: linear-gradient(green, white, green);
+}
+
+.mexico {
+    background-image: linear-gradient(to right,green , white, red );
+}
+
+.polonia {
+    background-image: linear-gradient(white, red);
+}
+
+.francia {
+    background-image: linear-gradient( to right,blue, white, red);
+}
+
+.australia {
+    background-color: rgb(2, 2, 88);
+}
+
+.dinamarca {
+    background-image: linear-gradient(rgb(146, 5, 5),white);
+}
+
+.tunez {
+    background-color: rgba(255, 0, 0, 0.904);
+}
+
+.españa {
+    background-image: linear-gradient(red,yellow, red);
+}
+
+.costa-rica {
+    background-image: linear-gradient(blue,white, red, white, blue);
+}
+
+.alemania {
+    background-image: linear-gradient(black 20% ,red, yellow);
+}
+
+.japon {
+    background-image: radial-gradient(circle, red 15% ,white 30%);
+}
+
+.belgica {
+    background-image: linear-gradient( to right, black, yellow, red);
+}
+
+.canada {
+    background-image: linear-gradient(to right, red,white, red);
+}
+
+.marruecos {
+    background-color: #770716;
+}
+
+.croacia {
+    background-image: linear-gradient(red,white, blue);
+}
+
+.brasil {
+    background-image: linear-gradient(to right, green,yellow, green);
+}
+
+.serbia {
+    background-image: linear-gradient(red,blue, white);
+}
+
+.suiza {
+    background-image: linear-gradient(to right, red,white);
+}
+
+.camerun {
+    background-image: linear-gradient(to right, green,rgb(177, 9, 9), yellow);
+}
+
+.portugal {
+    background-image: linear-gradient(to right, green, rgb(184, 5, 5) 45%);
+}
+
+.ghana {
+    background-image: linear-gradient(rgb(209, 3, 3),rgb(230, 230, 3), rgb(2, 54, 2));
+}
+
+.uruguay {
+    background-image: linear-gradient(white, blue, white, blue,white);
+}
+
+.corea-del-sur {
+    background-color: white;
+}
+
+.octavos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.octavos .groups-octavos {
+    display: flex;
+    color: white;
+}
+
+.subgroups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groups-octavos p {
+    padding: 1em;
+    background-color: rgb(71, 3, 24);
+    margin: 1em;
+    border-radius: .5em;
+}
+
+.cuartos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.cuartos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.cuartos p {
+    background-color: rgb(71, 3, 24);
+    padding: 1em;
+    border-radius: 1.5em 0em;
+    margin: 1em;
+}
+
+.semis {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.semis div {
+    display: flex;
+    align-items: center;
+}
+
+.semis p {
+    background-color: rgb(71, 3, 24);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 3em;
+}
+
+.final div {
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-bottom: 4em;
+}
+
+.final div p {
+    padding: 4em;
+    margin: 2em;
+    border-radius: .5em;
+    background-color: rgb(71, 3, 24);
+}
+
+.final div img {
+    width: 15%;
+}
+
+.champion {
+    display: flex;
+    justify-content: center;
+}
+
+.champion p {
+    padding: 4em;
+    background-color: gold;
+    border-radius: 3em 0em 3em 0em;
+    margin-bottom: 2em;
+}
+
+footer {
+    color:white;
+    text-align: center;
+}
+
+footer img {
+    margin: .5em;
+    transition: .2s;
+}
+
+footer img:hover {
+    transform: translateY(-.3em);
+}
+
